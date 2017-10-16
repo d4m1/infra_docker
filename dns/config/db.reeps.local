@@ -18,7 +18,7 @@ $TTL    604800
 @   IN  NS  infra ; in domain
 
 ; server host definitions
-infra   IN  A       10.4.166.2 ; nameserver def
+infra   IN  A       10.0.0.5 ; nameserver def
 ns      IN  CNAME   infra
 dns     IN  CNAME   infra
 dhcp    IN  CNAME   infra
